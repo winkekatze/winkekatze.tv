@@ -58,6 +58,8 @@ assets/css/main.css.map
 assets/css/ie9.css.map
 assets/css/main.min.css.map
 assets/css/ie9.min.css.map
+assets/css/start.min.css
+assets/css/*.min.css
 tmp/
 libsass/
 sass-spec/

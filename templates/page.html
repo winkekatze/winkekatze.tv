@@ -3,6 +3,12 @@
   {{- this.title -}}
 {%- endblock -%}
 {%- block body -%}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+    <h2>{{ this.title }}</h2>
+    {{ this.body }}
+{%- endblock -%}
+{%- block class -%}
+  page
+{%- endblock -%}
+{%- block scss -%}
+  css/main.min.css
 {%- endblock -%}

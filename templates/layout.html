@@ -1,14 +1,25 @@
 <!doctype html>
 {%- macro titlestring() -%}
-  {% block title %}Welcome{% endblock %} — winkekatze.tv
+  {%- block title -%}
+    Welcome
+  {%- endblock -%}
+  {{ ' — winkekatze.tv' }}
 {%- endmacro -%}
 {%- macro descriptionstring() -%}
-  {% block description %}Winkekatze Video Operation Center{% endblock %} — winkekatze.tv
+  {%- block description -%}
+    Winkekatze Video Operation Center
+  {%- endblock -%}
+  {{ ' — winkekatze.tv' }}
+{%- endmacro -%}
+{%- macro cssfile() -%}
+  {%- block scss -%}
+    css/main.min.css
+  {%- endblock -%}
 {%- endmacro -%}
 <html lang="{{ this.alt }}">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+  <link rel="stylesheet" href="{{ cssfile()|asseturl }}">
   <title>{{- titlestring() -}}</title>
 
   <meta name="generator" content="lektor" />
@@ -42,9 +53,13 @@
       </ul>
     </nav>
   </header>
-  <div class="page">
+  <div class="
+    {%- block class -%}
+      page
+    {%- endblock -%}">
     {%- block body -%}
-    {%- endblock -%}
+      <p>Hello World</p>
+    {%- endblock %}
   </div>
   <footer>
     &copy; Copyright 2022 by L3D under <a href="https://backwesen.de/voc/winkekatze.tv/src/branch/main/LICENCE">MIT License</a> | <a href="https://backwesen.de/voc/winkekatze.tv.git">Source Code</a>

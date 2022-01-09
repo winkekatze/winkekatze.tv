@@ -16,4 +16,5 @@ name = Englisch
 locale = en_US
 url_prefix = /en/
 
-
+[packages]
+lektor-scss = 1.4.1

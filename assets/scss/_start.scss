@@ -1,0 +1,16 @@
+div.start {
+    margin: 0 auto;
+    padding: 50px 0px;
+    background: transparent;
+    display: flex;
+    .left {
+        flex: 45%;
+        text-align: center;
+    }
+    .right {
+        flex: 55%;
+    }
+    img {
+        width: 100%;
+    }
+}
