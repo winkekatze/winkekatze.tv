@@ -1,0 +1,52 @@
+<!doctype html>
+{%- macro titlestring() -%}
+  {% block title %}Welcome{% endblock %} — winkekatze.tv
+{%- endmacro -%}
+{%- macro descriptionstring() -%}
+  {% block description %}Winkekatze Video Operation Center{% endblock %} — winkekatze.tv
+{%- endmacro -%}
+<html lang="{{ this.alt }}">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+  <title>{{- titlestring() -}}</title>
+
+  <meta name="generator" content="lektor" />
+  <meta name="description" content="{{- descriptionstring() -}}">
+  <meta name="author" content="L3D">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <meta property="og:url" content="{{ this | url(external=true) }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{- titlestring() -}}">
+  <meta property="og:description" content="{{- descriptionstring() -}}">
+</head>
+<body>
+  <header>
+    <h1>winkekatze.tv</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li
+          {%- if this._path == '/' %} class="active"{%- endif -%}>
+          <a href="{{ '/'|url }}">Welcome</a>
+        </li>
+        {%- for href, title in [
+          ['/projects', 'Projects'],
+          ['/about', 'About']
+        ] %}
+        <li
+          {%- if this.is_child_of(href) %} class="active"{%- endif -%}>
+          <a href="{{ href|url }}">{{ title }}</a>
+        </li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    {%- block body -%}
+    {%- endblock -%}
+  </div>
+  <footer>
+    &copy; Copyright 2022 by L3D under <a href="https://backwesen.de/voc/winkekatze.tv/src/branch/main/LICENCE">MIT License</a> | <a href="https://backwesen.de/voc/winkekatze.tv.git">Source Code</a>
+  </footer>
+</body>
