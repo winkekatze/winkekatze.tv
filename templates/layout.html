@@ -34,7 +34,7 @@
 </head>
 <body>
   <header>
-    <h1>winkekatze.tv</h1>
+    <h1><a href="/">winkekatze.tv</a></h1>
     <nav>
       <ul class="nav navbar-nav">
         <li
@@ -42,12 +42,11 @@
           <a href="{{ '/'|url }}">Welcome</a>
         </li>
         {%- for href, title in [
-          ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['https://c3woc.de/impressum/', 'Impressum']
         ] %}
         <li
           {%- if this.is_child_of(href) %} class="active"{%- endif -%}>
-          <a href="{{ href|url }}">{{ title }}</a>
+          <a href="{{ href }}">{{ title }}</a>
         </li>
         {%- endfor %}
       </ul>
