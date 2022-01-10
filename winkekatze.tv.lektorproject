@@ -6,6 +6,15 @@ excluded_assets = *.scss
 upscale = false
 output_path = temp/builds/winkekatze.tv/
 
+[servers.winkekatze]
+name = winkekatze
+url = https://winkekatze.tv/
+url_style = absolute
+enabled = yes
+default = yes
+locale = de_DE
+target = rsync://winkekatze@winkekatze.tv/srv/www/winkekatze.tv/
+
 [alternatives.de]
 name = Deutsch
 primary = yes
