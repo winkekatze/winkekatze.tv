@@ -2,6 +2,12 @@ body {
     font-family: 'Verdana', sans-serif;
     margin: 25px 25px 50px 25px;
     background: $background_accent_2;
+    color: $font_default;
+}
+
+h1, h2 {
+  color: $font_accent_3;
+  text-shadow: 0px 0px 1px black;
 }
 
 a {
@@ -10,4 +16,10 @@ a {
 
 a:hover {
     color: $font_accent_3;
+}
+
+.left {
+    background: rgba(128,128,128,0.15);
+    padding: 12px;
+    box-shadow: 0px 0px 2px 8px rgba(128,128,128,0.1);
 }
