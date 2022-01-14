@@ -2,6 +2,13 @@ title: Winkekatze Video Operation Center
 ---
 _model: start
 ---
-body: Hello World
+body:
+
+Das Winkekatzen Video Operation Center ist eine kleine Gruppe von chaosnahen Wesen aus der Bodenseeregion. Wir sind begeistert von Video- und Veranstaltungstechnik und Streamen und Recorden gerne Vorträge aus der Community rund um den Chaos Computer Club.
+
+Gibt es bei bei dir im Chaostreff auch spannende Vorträge oder ähnliches, die gerne gestreamt und recordet wären? Dann Sprich uns an!
+```
+video [at] winkekatze.tv
+```
 ---
 image: /images/winkekatze.svg

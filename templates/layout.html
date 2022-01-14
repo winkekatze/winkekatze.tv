@@ -39,9 +39,10 @@
       <ul class="nav navbar-nav">
         <li
           {%- if this._path == '/' %} class="active"{%- endif -%}>
-          <a href="{{ '/'|url }}">Welcome</a>
+          <a href="{{ '/'|url }}">Hallo</a>
         </li>
         {%- for href, title in [
+          ['/events' , 'Veranstaltungen'],
           ['https://c3woc.de/impressum/', 'Impressum']
         ] %}
         <li
