@@ -1,6 +1,14 @@
 footer {
     margin: 0 auto;
-    background: $background_accent_1;
+    background: $background_accent_2;
     padding: 20px 30px;
-    box-shadow: 5px 5px 5px 10px $background_accent_1;
+    font-size: $font_size_default;
+    color: $font_default;
+    text-align: center;
+    a {
+        color: $font_accent_4;
+    }
+    a:hover {
+        color: $font_accent_3;
+    }
 }

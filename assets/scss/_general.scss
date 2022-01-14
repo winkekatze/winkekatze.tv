@@ -1,21 +1,13 @@
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 25px 25px 50px 25px;
     background: $background_accent_2;
-    color: $font_default;
-}
-
-h1, h2 {
-  color: $font_accent_3;
-  text-shadow: 0px 0px 1px black;
-}
-
-a {
-    color: $font_accent_2;
-}
-
-a:hover {
-    color: $font_accent_3;
+    a {
+        color: $font_accent_2;
+    }
+    a:hover {
+        color: $font_accent_3;
+    }
 }
 
 .left {
