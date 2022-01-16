@@ -13,6 +13,12 @@ footer {
     }
 }
 
+@media (min-width: $large_view) {
+    footer {
+        font-size: $font_size_default_large;
+    }
+}
+
 @media (max-width: $mobile_view) {
     footer {
         font-size: $font_size_default_mobile;
