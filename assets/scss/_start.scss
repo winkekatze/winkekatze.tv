@@ -14,7 +14,7 @@ div.start {
         flex: 55%;
     }
     img {
-        max-height: 7dh;
+        max-height: 6dh;
         max-width: 100%;
     }
 
@@ -53,6 +53,11 @@ div.start {
             font-size: $font_size_h2_large;
             text-shadow: 0px 0px 4px black;
         }
+        img {
+            max-height: 8dh;
+            max-width: 100%;
+        }
+
     }
 }
 
@@ -70,7 +75,7 @@ div.start {
             margin-top: 40px;
         }
         img {
-            max-height: 5dh;
+            max-height: 4dh;
             max-width: 90%;
 
         }
