@@ -6,9 +6,9 @@
   font-weight: 400;
   font-display: swap;
   src: local(''),
-       url('../fonts/mochiy-pop-one-v5-latin-regular.woff2') format('woff2'),
-       url('../fonts/mochiy-pop-one-v5-latin-regular.woff') format('woff'),
-       url('../fonts/mochiy-pop-one-v5-latin-regular.ttf') format('truetype'),
+       url('/fonts/mochiy-pop-one-v5-latin-regular.woff2') format('woff2'),
+       url('/fonts/mochiy-pop-one-v5-latin-regular.woff') format('woff'),
+       url('/fonts/mochiy-pop-one-v5-latin-regular.ttf') format('truetype'),
 }
 
 // Lato font
@@ -43,4 +43,37 @@
       url('/fonts/lato-v20-latin-900.woff2') format('woff2'),
       url('/fonts/lato-v20-latin-900.woff') format('woff'),
       url('/fonts/lato-v20-latin-900.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $main_font;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+      url('/fonts/lato-v20-latin-italic.woff2') format('woff2'),
+      url('/fonts/lato-v20-latin-italic.woff') format('woff'),
+      url('/fonts/lato-v20-latin-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $main_font;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+      url('/fonts/lato-v20-latin-700italic.woff2') format('woff2'),
+      url('/fonts/lato-v20-latin-700italic.woff') format('woff'),
+      url('/fonts/lato-v20-latin-700italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $main_font;
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local(''),
+      url('/fonts/lato-v20-latin-900italic.woff2') format('woff2'),
+      url('/fonts/lato-v20-latin-900italic.woff') format('woff'),
+      url('/fonts/lato-v20-latin-900italic.ttf') format('truetype');
 }
