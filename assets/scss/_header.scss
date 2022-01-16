@@ -29,10 +29,14 @@ header {
         }
     }
 }
-@media (max-width: $media_horizontal_breakpoint) {
+
+@media (max-width: $mobile_view) {
     header {
         h1 a, h1 a:hover, h1 a:link {
             font-size: $font_size_h1_mobile;
+        }
+        nav ul {
+            font-size: $font_size_default_mobile;
         }
     }
 }

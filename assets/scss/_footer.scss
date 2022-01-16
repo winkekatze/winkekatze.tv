@@ -5,10 +5,24 @@ footer {
     font-size: $font_size_default;
     color: $font_default;
     text-align: center;
-    a {
+    a, a:link, a:visited {
         color: $font_accent_4;
     }
     a:hover {
         color: $font_accent_3;
     }
+}
+
+@media (max-width: $mobile_view) {
+    footer {
+        font-size: $font_size_default_mobile;
+        color: silver;
+        a, a:link, a:visited {
+            color: grey;
+        }
+        a:hover {
+            color: white;
+        }
+    }
+
 }
