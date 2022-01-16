@@ -1,0 +1,17 @@
+title: Liveübertragung in Nebenraum
+---
+event_end_date: 2017-10-14
+---
+event_start_date: 2017-10-14
+---
+preview: Wir haben eine gut besuchte Veranstaltung in einen nebenraum übertragen.
+---
+body:
+
+Dies ist unsere erste öffentliche Berührung mit FullHD Video-Übertragung gewesen.
+
+Nachdem wir Szenen aus einem Klassenspiel übertragen haben, wurden wir gefragt eine stark besuchte Monatsfeier in einen zweiten Raum zu übertragen.
+
+Hierfür haben wir im Veranstaltungssaal eine Kamera aufgebaut und diese per HDMI in unseren Streaming Rechner in die Encoder Karte geführt. Das Audio für die Übertragung kam von der Bühnentechnik. Das ganze haben wir im OBS per RTMP Stream an den Rechner im zweiten Saal gestreamt. Dort wurde der Stream mit VLC wiedergegeben und auf die PA und den Beamer abgespielt.
+
+Für die technik die wir damals hatten und die erfahrung die wir bis dahin gesammelt haben lief das relativ gut. Leider gibt es von der Veranstaltung keine Aufzeichnung.

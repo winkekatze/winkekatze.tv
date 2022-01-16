@@ -1,0 +1,17 @@
+title: Livebild einer Klassenspiel-Szene
+---
+body:
+
+Dies ist eins under ersten Experimente mit Live Video Übertragung. Hier haben wir uns erst ganz grundlegend mit der Thematik auseinander gesetzt und hatten nicht mal ansatzweise das Wissen und das Equipment, was wir ein paar Jahre später hatten.
+
+Unsere challange war es immer wieder kurze Szenen aus einem Klassenspiel zu übertragen, die hinter oder neben der Bühne statt gefunden haben.
+Hierfür haben wir ein analoges [composite Video](https://en.wikipedia.org/wiki/Composite_video) Signal über circa 20m Kabelweg in unseren Rechner übertragen, der das dann als rtmp Stream weiter geschickt hat an den Rechner, der am Beamer des Theatersaal angeschlossen war und dies dann abgespielt hat.
+Das ganze war zwar einige Sekunden verzögert, aber das war in dieser Situation gut genug. Auch über Audio mussten wir uns keine Gedanken machen, da die kurzen Szenen von vorn herein ohne eigene Tonspur geplant waren und während dessen von anderen Musik abgespielt wurde wie in dem Klassenspiel üblich bei übergängen und Szenenwechseln.
+
+Leiderm gibt es von dem Klassenspiel selber keine Aufzeichnung.
+---
+event_end_date: 2016-06-18
+---
+event_start_date: 2016-06-16
+---
+preview: Wir haben kurze Szenen eines Klassenspiel auf die Leinwand im Theatersaal übertragen
