@@ -63,3 +63,22 @@ div.events {
         }
     }
 }
+
+@media (max-width: $tiny_view) {
+    div.events {
+        p {
+            font-size: $font_size_default_tiny;
+        }
+        .headline a {
+            font-size: $font_size_h2_tiny;
+        }
+    }
+}
+
+@media (max-width: $pico_view) {
+    div.events {
+        .headline a {
+            font-size: $font_size_h2_pico;
+        }
+    }
+}

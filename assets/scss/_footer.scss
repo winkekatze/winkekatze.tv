@@ -24,5 +24,10 @@ footer {
             color: white;
         }
     }
+}
 
+@media (max-width: $tiny_view) {
+    footer {
+        font-size: $font_size_default_pico;
+    }
 }

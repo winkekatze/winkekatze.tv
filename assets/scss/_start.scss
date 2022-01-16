@@ -58,3 +58,11 @@ div.start {
         }
     }
 }
+
+@media (max-width: $tiny_view) {
+    div.start {
+        p, a{
+          font-size: $font_size_default_tiny;
+        }
+    }
+}
