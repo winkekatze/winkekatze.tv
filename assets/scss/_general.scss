@@ -2,10 +2,4 @@ body {
     font-family: $main_font, sans-serif;
     margin: 25px 25px 50px 25px;
     background: $background_accent_2;
-    a {
-        color: $font_accent_2;
-    }
-    a:hover {
-        color: $font_accent_3;
-    }
 }

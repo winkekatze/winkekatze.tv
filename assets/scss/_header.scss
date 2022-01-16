@@ -16,6 +16,12 @@ header {
         list-style: none;
         margin: 0;
         padding: 0;
+        a, a:link, a:visited {
+            color: $font_accent_2;
+        }
+        a:hover, a:active {
+            color: $font_accent_3;
+        }
         li {
             display: inline;
             margin: 0 8px 0 0;

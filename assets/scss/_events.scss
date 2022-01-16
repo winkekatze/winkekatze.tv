@@ -2,18 +2,21 @@ div.events {
     margin: 0 auto;
     padding: 20px 30px;
     background: transparent;
-    p, a{
+    p{
       color: $font_default;
       font-size: $font_size_default;
+    }
+    a, a:link, a:visited {
+        text-decoration: none;
+        color: $font_accent_4;
+    }
+    a:hover, a:active {
+       color: $font_accent_3;
     }
 
     code {
       color: $font_accent_4;
       font-size: $font_size_code;
-    }
-    h1 {
-        color: $font_accent_3;
-        text-shadow: 0px 0px 1px black;
     }
     .headline a {
         color: $font_accent_3;
@@ -34,5 +37,10 @@ div.events {
     h2 {
         color: $font_accent_3;
         text-shadow: 0px 0px 1px black;
+    }
+    img {
+        max-width: 94%;
+        margin: 3%;
+        box-shadow: 5px 5px 4px 3px grey;
     }
 }
