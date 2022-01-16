@@ -2,15 +2,15 @@ div.page {
     margin: 0 auto;
     padding: 20px 30px;
     background: transparent;
-    p, a{
+    p, code{
       color: $font_default;
       font-size: $font_size_default;
     }
 
-    code {
-      color: $font_accent_4;
-      font-size: $font_size_code;
+    a, a:link, a:visited, a:active {
+        color: $font_default;
     }
+
     h1 {
         color: $font_accent_3;
         font-size: $font_size_h1;
@@ -28,13 +28,11 @@ div.page {
 }
 
 @media (min-width: $large_view) {
-    div.events {
+    div.page {
+        margin: auto;
         max-width: $large_min_width;
         p {
             font-size: $font_size_default_large;
-        }
-        code {
-            font-size: $font_size_code_large;
         }
         h1 {
             font-size: $font_size_h1_large;
