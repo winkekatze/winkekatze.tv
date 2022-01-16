@@ -30,3 +30,13 @@ div.start {
         text-shadow: 0px 0px 1px black;
     }
 }
+
+@media (max-width: $media_horizontal_breakpoint) {
+    div.start {
+        display: initial;
+        .left, .right {
+            text-align: center;
+            margin-top: 40px;
+        }
+    }
+}

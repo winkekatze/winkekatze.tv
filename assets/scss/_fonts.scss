@@ -1,53 +1,46 @@
 
-// 'Mochiy Pop P One' font
+/* mochiy-pop-one-regular - latin */
 @font-face {
-  font-family: 'Mochiy Pop P One';
+  font-family: $headline_font;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/mochiypoppone.ttf) format('truetype');
+  src: local(''),
+       url('../fonts/mochiy-pop-one-v5-latin-regular.woff2') format('woff2'),
+       url('../fonts/mochiy-pop-one-v5-latin-regular.woff') format('woff'),
+       url('../fonts/mochiy-pop-one-v5-latin-regular.ttf') format('truetype'),
 }
 
 // Lato font
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/fonts/lato_italic_400.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/fonts/lato_italic_700.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url(/fonts/lato_italic_900.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
+  font-family: $main_font;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/lato_normal_400.ttf) format('truetype');
+  src: local(''),
+      url('/fonts/lato-v20-latin-regular.woff2') format('woff2'),
+      url('/fonts/lato-v20-latin-regular.woff') format('woff'),
+      url('/fonts/lato-v20-latin-regular.ttf') format('truetype');
 }
+
 @font-face {
-  font-family: 'Lato';
+  font-family: $main_font;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/fonts/lato_normal_700.ttf) format('truetype');
+  src: local(''),
+      url('/fonts/lato-v20-latin-700.woff2') format('woff2'),
+      url('/fonts/lato-v20-latin-700.woff') format('woff'),
+      url('/fonts/lato-v20-latin-700.ttf') format('truetype');
 }
+
 @font-face {
-  font-family: 'Lato';
+  font-family: $main_font;
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(/fonts/lato_normal_900.ttf) format('truetype');
+  src: local(''),
+      url('/fonts/lato-v20-latin-900.woff2') format('woff2'),
+      url('/fonts/lato-v20-latin-900.woff') format('woff'),
+      url('/fonts/lato-v20-latin-900.ttf') format('truetype');
 }

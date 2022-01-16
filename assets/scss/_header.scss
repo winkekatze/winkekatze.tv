@@ -4,7 +4,7 @@ header {
     padding: 20px 30px;
     box-shadow: 5px 5px 5px 10px $background_accent_1;
     h1 a, h1 a:hover, h1 a:link {
-        font-family: 'Mochiy Pop P One', sans-serif;
+        font-family: $headline_font, sans-serif;
         color: $font_accent_1;
         margin: 0;
         font-weight: bold;
@@ -20,6 +20,13 @@ header {
             display: inline;
             margin: 0 8px 0 0;
             padding: 0;
+        }
+    }
+}
+@media (max-width: $media_horizontal_breakpoint) {
+    header {
+        h1 a, h1 a:hover, h1 a:link {
+            font-size: $font_size_h1_mobile;
         }
     }
 }
