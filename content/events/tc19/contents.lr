@@ -1,0 +1,17 @@
+title: Technik Camp 2019
+---
+body:
+
+Die Vorträge am [Technik Camp 2019](https://ffbsee.net/blog/camp19/) wurde komplett von uns gestreamt und recorded. Die Aufgezeichneten Vorträge der Veranstaltung gibt es natürlich auf [media.ccc.de](https://media.ccc.de/c/tc19) zum anschauen.
+
+Im Vorfeld zu dem Event haben wir uns recht intensiv mit [voctomix v1](https://github.com/voc/voctomix/tree/master) auseinander gesetzt und mit einer damal aktuellen Version von diesem [ansible playbook](https://github.com/chaos-bodensee/voc-setup.git) aufgesetzt.
+
+Mitlerweile gibt es von voctomix eine Version 2, die sich aber an sehr vielen stellen unterscheidet und wir daher auf OBS-Studio umgestellt haben um Talks zu streamen und zu recorden.
+
+[![Technik Camp 2019](tc2019.png)](https://media.ccc.de/c/tc19)
+---
+event_end_date: 2019-08-04
+---
+event_start_date: 2019-08-01
+---
+preview: winekaktze.tv hat das gesammte Streaming und Recording dieser Veranstaltung gemacht.
