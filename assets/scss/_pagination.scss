@@ -18,5 +18,22 @@
     .disabled {
         background: $font_accent_2;
     }
+}
 
+@media (min-width: $large_view) {
+    .pagination {
+        font-size: $font_size_default_large;
+    }
+}
+
+@media (max-width: $mobile_view) {
+    .pagination {
+        font-size: $font_size_default_mobile;
+    }
+}
+
+@media (max-width: $tiny_view) {
+    .pagination {
+        font-size: $font_size_default_tiny;
+    }
 }
