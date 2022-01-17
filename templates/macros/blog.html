@@ -1,4 +1,4 @@
-{% macro render_blog_post(post, from_index=false) %}
+{%- macro render_blog_post(post, from_index=false) %}
   <div class="blog-post">
   {% if from_index -%}
     <h2 class="headline"><a href="{{ post|url }}">{{ post.title }}</a></h2>
@@ -7,7 +7,7 @@
   {% endif -%}
   <p class="meta">
     {% if post.event_start_date != post.event_end_date -%}
-      Vom {{ post.event_start_date | dateformat(('d. MMM'), locale=post.alt ) }} bis {{ post.event_end_date | dateformat('long', locale=post.alt) }}.
+      Vom {{ post.event_start_date | dateformat('long', locale=post.alt ) }} bis {{ post.event_end_date | dateformat('long', locale=post.alt) }}.
     {%- else -%}
       Am {{ post.event_start_date | dateformat('long', locale=post.alt) }}.
     {%- endif %}
@@ -18,4 +18,4 @@
     {{ post.body }}
   {% endif -%}
   </div>
-{% endmacro %}
+{% endmacro -%}
