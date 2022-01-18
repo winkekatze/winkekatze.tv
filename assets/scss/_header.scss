@@ -57,6 +57,11 @@ header {
         }
         nav ul {
             font-size: $font_size_default_mobile;
+            a, a:link, a:visited {
+                display: block;
+                padding: 5px 8px;
+                margin: -6px 0px;
+            }
         }
     }
 }
