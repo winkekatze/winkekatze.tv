@@ -51,6 +51,9 @@ div.laend {
         h2 {
             font-size: $font_size_h2_large;
         }
+        code{
+            font-size: $font_size_h1;
+        }
     }
 }
 
@@ -61,7 +64,7 @@ div.laend {
           font-size: $font_size_default_mobile;
         }
         code {
-            font-size: $font_size_code_mobile;
+            font-size: $font_size_h2_mobile;
         }
         img {
             max-width: 60%;
