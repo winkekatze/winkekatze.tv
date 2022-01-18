@@ -1,4 +1,7 @@
 footer {
+    @if $hide_footer == true {
+        display: none;
+    }
     margin: 0 auto;
     background: $background_accent_2;
     padding: 20px 30px;

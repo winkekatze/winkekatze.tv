@@ -34,16 +34,17 @@
 </head>
 <body>
   <header>
-    <h1 id="top"><a href="/">winkekatze.tv</a></h1>
+    <h1 id="top"><a href="/">
+      {%- block sitetitle -%}
+        winkekatze.tv
+      {%- endblock -%}
+        </a></h1>
     <nav>
       <ul class="nav navbar-nav">
-        <li
-          {%- if this._path == '/' %} class="active"{%- endif -%}>
-          <a href="{{ '/'|url }}">Hallo</a>
-        </li>
         {%- for href, title in [
-          ['/events' , 'Veranstaltungen'],
-          ['/datenschutz' , 'Datenschutzerklärung'],
+          ['/haello', 'Hällo'],
+          ['/events', 'Veranstaltungen'],
+          ['/datenschutz', 'Datenschutzerklärung'],
           ['https://c3woc.de/impressum/', 'Impressum']
         ] %}
         <li

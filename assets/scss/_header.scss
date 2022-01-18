@@ -22,9 +22,10 @@ header {
             background: $shadow_accent_1;
             padding: 6px 18px;
             border-radius: 5px;
+            text-transform: $menu_text_transform;
         }
         a:hover, a:active {
-            color: $font_accent_3;
+            color: $font_accent_2_hover;
             box-shadow: 0px 0px 1px 1px $shadow_accent_1;
         }
         li {

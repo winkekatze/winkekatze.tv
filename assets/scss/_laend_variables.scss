@@ -1,16 +1,17 @@
-$background_accent_1: rgb(247, 196, 24 );
-$background_accent_2: black;
+$background_accent_1: rgb(255,255,0);
+$background_accent_2: $background_accent_1;
 
-$font_accent_1: red;
-$font_accent_2: maroon;
-$font_accent_2_hover: orangered;
-$font_accent_3: orangered;
-$font_accent_4: rgb(247, 196, 24);
-$font_default: white;
+$font_accent_1: black;
+$font_accent_2: white;
+$font_accent_2_hover: silver;
+$font_accent_3: black;
+$font_accent_4: black;
+$font_default: black;
+$font_default_inverted: white;
 
-$shadow_accent_1: rgba(255, 190, 14, 0.5);
-$font_weight_default: 400;
+$shadow_accent_1: rgba(0,0,0,1);
 $font_size_default: 1.3em;
+$font_weight_default: 700;
 $font_size_default_large: 2.2em;
 $font_size_default_mobile: 1em;
 $font_size_default_tiny: 0.9em;
@@ -29,15 +30,16 @@ $font_size_h2_mobile: 1.25em;
 $font_size_h2_tiny: 0.9em;
 $font_size_h2_pico: 0.75em;
 
-$headline_font: 'Mochiy Pop One';
-$main_font: 'Lato';
+$headline_font: 'EB Garamond';
+$main_font: 'Epilogue';
 
-$large_min_width: 2200px;
+$large_min_width: 1800px;
 
 $large_view: 1920px;
 $mobile_view: 900px;
 $tiny_view: 450px;
 $pico_view: 320px;
 
-$menu_text_transform: none;
-$hide_footer: false;
+$the_laend_yellow: rgb(255, 255, 0);
+$menu_text_transform: uppercase;
+$hide_footer: true;

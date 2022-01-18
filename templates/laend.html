@@ -1,0 +1,17 @@
+{%- extends "layout.html" -%}
+{%- block title -%}
+  {{- this.title -}}
+{%- endblock -%}
+{%- block body -%}
+    <h2>{{ this.title }}</h2>
+    {{ this.body }}
+{%- endblock -%}
+{%- block class -%}
+  laend
+{%- endblock -%}
+{%- block scss -%}
+  css/laend.min.css
+{%- endblock -%}
+{%- block sitetitle -%}
+  {{- this.sitename -}}
+{%- endblock -%}
