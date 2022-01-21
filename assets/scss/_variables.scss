@@ -1,11 +1,16 @@
 $background_accent_1: rgb(247, 196, 24 );
 $background_accent_2: black;
+$menu_background_color: transparent;
+$menu_background_dropdown_color: white;
+$menu_accent_hover: red;
+$menu_box_background: transparent;
 
 $font_accent_1: red;
 $font_accent_2: maroon;
 $font_accent_2_hover: orangered;
 $font_accent_3: orangered;
 $font_accent_4: rgb(247, 196, 24);
+$font_menu: black;
 $font_default: white;
 
 $shadow_accent_1: rgba(255, 190, 14, 0.5);
@@ -40,3 +45,4 @@ $pico_view: 320px;
 
 $menu_text_transform: none;
 $hide_footer: false;
+$show_mobile_menu: false;

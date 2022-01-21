@@ -1,0 +1,16 @@
+{
+  "Hällo": {
+    "href": "/haello"
+  },
+  "Veranstaltungen": {
+    "href": "/events"
+  },
+  "Kontakt": {
+    "list_childs": true,
+    "items": {
+      "Kontakt": "/kontakt",
+      "Datenschutz": "/datenschutz",
+      "Impressum": "https://c3woc.de/impressum/"
+    }
+  }
+}

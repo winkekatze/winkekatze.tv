@@ -39,21 +39,7 @@
         winkekatze.tv
       {%- endblock -%}
         </a></h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        {%- for href, title in [
-          ['/haello', 'Hällo'],
-          ['/events', 'Veranstaltungen'],
-          ['/datenschutz', 'Datenschutzerklärung'],
-          ['https://c3woc.de/impressum/', 'Impressum']
-        ] %}
-        <li
-          {%- if this.is_child_of(href) %} class="active"{%- endif -%}>
-          <a href="{{ href }}">{{ title }}</a>
-        </li>
-        {%- endfor %}
-      </ul>
-    </nav>
+      {%- include "blocks/navigation.html" -%}
   </header>
   <div class="
     {%- block class -%}
