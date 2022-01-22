@@ -36,7 +36,7 @@ header {
                     text-decoration: none;
                     text-align: center;
                     display: inline-block;
-                    color: #fff;
+                    color: $font_submenu;
                     font-size: $font_size_default;
 
                     &:focus {
@@ -80,7 +80,7 @@ header {
             &:after {
                  content: "";
                  border: 0.35rem solid transparent;
-                 border-top-color: rgba(#fff, 0.45);
+                 border-top-color: $menu_background_dropdown_color;
                  margin-left: 0.25em;
                  transform: translateY(0.15em);
             }
