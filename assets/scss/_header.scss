@@ -4,13 +4,25 @@ header {
     background: $background_accent_1;
     top: 0;
     box-shadow: 0px -10000px 0px 10000px $background_accent_1;
-    h1 a, h1 a:hover, h1 a:link, h1 a:visited {
-        font-family: $headline_font, sans-serif;
-        color: $font_accent_1;
-        margin: 0;
+    .sitetitle {
+        text-align: justify;
+        display: inline-block;
+        a, a:hover, a:link, a:visited {
+            font-family: $headline_font, sans-serif;
+            color: $font_accent_1;
+            margin: 0;
+            font-weight: bold;
+            font-size: $font_size_h1;
+            text-decoration: none;
+        }
+    }
+    .sitesubtitle {
+        text-align: justify;
+        display: inline-block;
+        font-family: $subline_font, sans-serif;
+        color: $font_default;
         font-weight: bold;
-        font-size: $font_size_h1;
-        text-decoration: none;
+        font-size: $font_size_h2;
     }
     nav {
         grid-template-rows: auto 1fr auto;
@@ -36,7 +48,7 @@ header {
                     text-decoration: none;
                     text-align: center;
                     display: inline-block;
-                    color: $font_submenu;
+                    color: $font_menu;
                     font-size: $font_size_default;
 
                     &:focus {
@@ -102,7 +114,7 @@ header {
             box-shadow: 0 0.15em 0.25em rgba(black, 0.25);
 
             a {
-                color: $font_menu;
+                color: $font_submenu;
                 display: block;
                 padding: 0.5em;
                 opacity: 0;
@@ -188,14 +200,29 @@ header {
 
 @media (max-width: $mobile_view) {
     header {
-        h1 a, h1 a:hover, h1 a:link {
-            font-size: $font_size_h1_mobile;
+        .sitetitle {
+            margin-top: 0px;
+            a, a:hover, a:link {
+                font-size: $font_size_h1_mobile;
+            }
+        }
+        .sitesubtitle {
+            display: block;
+            font-size: $font_size_h2_mobile;
+            margin-top: 0px;
         }
         @if $show_mobile_menu == true {
             nav {
+                > ul > li a,
+                > ul > li .title_dropdown {
+                    font-size: $font_size_default_mobile;
+                }
+                > ul > li > a,
+                > ul > li .title_dropdown {
+                    padding: 0.3rem 0.2rem;
+                }
                 ul {
                     display: table;
-
                 }
                 .dropdown {
                     .dropdown__menu {
@@ -213,8 +240,38 @@ header {
 
 @media (max-width: $tiny_view) {
     header {
-        h1 a, h1 a:hover, h1 a:link {
-            font-size: $font_size_h1_tiny;
+        .sitetitle {
+            margin-top: 0px;
+            a, a:hover, a:link {
+                font-size: $font_size_h1_tiny;
+            }
+        }
+        .sitesubtitle {
+            font-size: $font_size_h2_tiny;
+        }
+        @if $show_mobile_menu == true {
+            nav {
+                > ul > li a,
+                > ul > li .title_dropdown {
+                    font-size: $font_size_default_tiny;
+                }
+                > ul > li > a,
+                > ul > li .title_dropdown {
+                    padding: 0.3rem 0.2rem;
+                }
+                ul {
+                    display: table;
+                }
+                .dropdown {
+                    .dropdown__menu {
+                        left: 180%;
+                    }
+                    &:after {
+                        content: none;
+                        opacity: 1;
+                    }
+                }
+            }
         }
     }
 }
