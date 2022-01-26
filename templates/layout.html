@@ -18,19 +18,19 @@
 {%- endmacro -%}
 <html lang="{{ this.alt }}">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="{{ cssfile()|asseturl }}">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="{{ cssfile()|asseturl }}" />
   <title>{{- titlestring() -}}</title>
 
   <meta name="generator" content="lektor" />
-  <meta name="description" content="{{- descriptionstring() -}}">
-  <meta name="author" content="L3D">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-  <meta property="og:url" content="{{ this | url(external=true) }}">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{- titlestring() -}}">
-  <meta property="og:description" content="{{- descriptionstring() -}}">
+  <meta name="description" content="{{- descriptionstring() -}}" />
+  <meta name="author" content="L3D" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <meta property="og:url" content="{{ this | url(external=true) }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{- titlestring() -}}" />
+  <meta property="og:description" content="{{- descriptionstring() -}}" />
 </head>
 <body>
   <header>
