@@ -2,7 +2,7 @@ div.page {
     margin: 0 auto;
     padding: 20px 30px;
     background: transparent;
-    p, code{
+    p, code, ul {
       color: $font_default;
       font-size: $font_size_default;
     }
@@ -30,7 +30,7 @@ div.page {
     div.page {
         margin: auto;
         max-width: $large_min_width;
-        p {
+        p, code, ul {
             font-size: $font_size_default_large;
         }
         h1 {
