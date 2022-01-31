@@ -6,6 +6,7 @@
     "href": "/events",
     "list_childs": true,
     "items": {
+      "Veranstaltungen": "/events",
       "list_namespace": "/events"
     }
   },
