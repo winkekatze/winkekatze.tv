@@ -3,12 +3,9 @@ div.events {
     padding: 20px 30px;
     background: transparent;
 
-    p {
+    p, ul li {
       color: $font_default;
       font-size: $font_size_default;
-    }
-    ul {
-        color: $font_default;
     }
 
     a, a:link, a:visited {
@@ -35,6 +32,10 @@ div.events {
     .meta {
         color: silver;
         font-style: italic;
+    }
+
+    ul li {
+        padding: 5px 0px;
     }
 
     .blog-post {

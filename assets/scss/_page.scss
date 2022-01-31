@@ -2,12 +2,12 @@ div.page {
     margin: 0 auto;
     padding: 20px 30px;
     background: transparent;
-    p, code {
+    p, code, ul li {
       color: $font_default;
       font-size: $font_size_default;
     }
 
-    a, a:link, a:visited, a:active, ul {
+    a, a:link, a:visited, a:active {
         color: $font_default;
     }
 
@@ -28,6 +28,7 @@ div.page {
     ul li {
         padding: 5px 0px;
     }
+
     .highlight {
         color: $font_accent_4;
         font-size: $font_size_code;
