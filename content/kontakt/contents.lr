@@ -1,16 +1,18 @@
 _model: page
 ---
-title: Stream start
+title: Stream your Talk online
 ---
 body:
 
-Du veranstaltest ein Event mit Vortragsprogramm, das diese Vorträge gerne für ein größeres Publikum zugänglich machen möchte?
-Du oder Wesen mit denen du gerne Zeit verbringst, haben ein spannedes Projekt, einen cooleen Hack oder eine unterhaltsamme Entdeckung, das Sie gerne der Welt erzählen wollen?
++ Du veranstaltest ein Event mit Vortragsprogramm, das diese Vorträge gerne für ein größeres Publikum zugänglich machen möchte?
++ Du oder Wesen mit denen du gerne Zeit verbringst, haben ein spannedes Projekt, einen cooleen Hack oder eine Entdeckung, die Sie gerne der Welt erzählen wollen?
++ Du Veranstaltest eine Demonstration mit Kundgebung, die gerne recorded oder auch gestreamt werden möchte?
 
-Sehr cool! Dann nimm gerne Kontakt mit uns auf!
+Sehr fein! Wir bei Winkekatze.TV lieben es mit Videotechnik zu spielen und solche Sachen aufzuzeichnen und in die Welt zu streamen. Nimm gerne mit uns Kontakt auf:
 
-<code>video [at] winkekatze.tv</code>
+<code class="highlight">video [at] winkekatze.tv</code>
 
-Das Winkekatzen Video Operation Center hilft gerne dabei, Wissen mit der Welt zu teilen. Wir haben gute Erfahrungen damit gesammelt, auch zusammen mit anderen von Streaming begeisterten Hackern kleine oder auch größere Streamingprojekte zu ermöglichen. Zum Beispiel an der Jahresendveranstaltung des Chaos Computer Club sind wir bei [Chaos West TV](https://chaoswest.tv) dabei, das Studio zu betreiben, eine Bühne zu bauen und haben am Ende gemeinsam viele spannende Vorträge gestreamt und veröffentlich.
-
-Auch beim Winterkongress oder der CoSin haben wir mit dem CHVOC, dem Video Operation Center aus der Schweiz zusammen das Vortragsprogramm mit dem Internet geteilt und aufgezeichnet.
+Wir versuchen auf der [Events](/events) Seite aufzuschreiben, bei welchen Veranstaltungen wir mit gemacht haben und mit wem wir dort zusammen die Video Technik aufgebaut, konfiguriert und bedient haben. Hier ein paar Highlights:
++ Zusammen mit [Chaos West TV](https://chaos-west.tv/) haben wir im Full-Remote Studio-Betrieb eine Bühne auf dem [RC3 2021](/events/rc3-2021/) und [RC3 2020](/events/rc3-2020/) aufgebaut und betrieben. Und haben schon spannende Ideen für weitere Jahresendveranstaltungen des Chaos Computer Club.
++ Zusammen mit dem CHVOC haben wir die [CoSin 2019](/events/cosin-2019/) so wie den [Wintercongress 2020](events/wk20/) und den [Wintercongress 2022](events/wk22/) gestreamt und aufgezeichnet und freuen uns natürlich schon auf viele schöne chaosnahe Veranstaltungen die wir zusammen mit dem CHVOC Streamen und Recorden werden.
++ Von [Fridays for Future Bodensee](https://klima-streik.de/) wurden wir gefragt ob wir nicht die Kundgebungen auf den Demonstrationen aufzeichnen könnten. [FFF Bodensee](events/fff_bodensee_21/). Dies haben wir gerne gemacht und werden dies wohl auch noch für einige zukünftige Kundgebungen machen.
