@@ -3,7 +3,11 @@
     "href": "/haello"
   },
   "Veranstaltungen": {
-    "href": "/events"
+    "href": "/events",
+    "list_childs": true,
+    "items": {
+      "list_namespace": "/events"
+    }
   },
   "Kontakt": {
     "list_childs": true,
