@@ -2,9 +2,13 @@ div.page {
     margin: 0 auto;
     padding: 20px 30px;
     background: transparent;
-    p, code, ul li {
+    p, ul li {
       color: $font_default;
       font-size: $font_size_default;
+    }
+
+    code {
+      color: $font_default;
     }
 
     a, a:link, a:visited, a:active {
@@ -39,12 +43,15 @@ div.page {
     div.page {
         margin: auto;
         max-width: $large_min_width;
-        p, code, ul {
+
+        p, ul li {
             font-size: $font_size_default_large;
         }
+
         h1 {
             font-size: $font_size_h1_large;
         }
+
         h2 {
             font-size: $font_size_h2_large;
         }
@@ -53,18 +60,23 @@ div.page {
 
 @media (max-width: $mobile_view) {
     div.page {
+
         p, a{
           font-size: $font_size_default_mobile;
         }
+
         code {
             font-size: $font_size_code_mobile;
         }
+
         img {
             max-width: 90%;
         }
+
         h1 {
             font-size: $font_size_h1_mobile;
         }
+
         h2 {
             font-size: $font_size_h2_mobile;
         }
