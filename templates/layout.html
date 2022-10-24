@@ -26,7 +26,7 @@
   <meta name="description" content="{{- descriptionstring() -}}" />
   <meta name="author" content="L3D" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | url(external=true) }}" />
   <meta property="og:url" content="{{ this | url(external=true) }}" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{- titlestring() -}}" />

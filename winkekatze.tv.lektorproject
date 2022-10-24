@@ -27,4 +27,4 @@ url_prefix = /en/
 
 [packages]
 lektor-scss = 1.4.1
-lektor-html-pretify = 1.0.5
+lektor-html-pretify = 1.0.7
