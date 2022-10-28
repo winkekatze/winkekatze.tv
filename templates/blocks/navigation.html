@@ -6,9 +6,12 @@
           {% if not mapping.list_childs %}
           <li>
             <a
-              {% if this._path == mapping.href %} class="active"
-              {% endif %} {{- ' ' -}}
-              href="{{ mapping.href|url }}">
+              {% if this._path == mapping.href %} class="active" {% endif %}
+              {% if mapping.external | default(false) %}
+                href="{{ mapping.href }}" target="_blank" rel="noopener noreferrer"
+              {% else %}
+                href="{{ mapping.href | url }}"
+              {% endif %}>
                 {{- title -}}
             </a>
           {% else %}
