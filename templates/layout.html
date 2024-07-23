@@ -1,36 +1,32 @@
 <!doctype html>
-{%- macro titlestring() -%}
-  {%- block title -%}
-    Welcome
-  {%- endblock -%}
-  {{ ' — winkekatze.tv' }}
-{%- endmacro -%}
-{%- macro descriptionstring() -%}
-  {%- block description -%}
-    Winkekatze Video Operation Center
-  {%- endblock -%}
-  {{ ' — winkekatze.tv' }}
-{%- endmacro -%}
-{%- macro cssfile() -%}
-  {%- block scss -%}
-    css/main.min.css
-  {%- endblock -%}
-{%- endmacro -%}
+{%- macro titlestring() %}
+{%   block title %}
+Welcome
+{%   endblock %}
+ — winkekatze.tv
+{% endmacro %}
+{% macro descriptionstring() %}
+{%   block description %}
+Winkekatze Video Operation Center
+{%   endblock -%}
+ — winkekatze.tv
+{%   endmacro %}
+{% macro cssfile() %}{%  block scss %}css/main.min.css{% endblock %}{% endmacro %}
 <html lang="{{ this.alt }}">
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="{{ cssfile()|asseturl }}" />
-  <title>{{- titlestring() -}}</title>
+  <title>{{ titlestring() }}</title>
 
   <meta name="generator" content="lektor" />
-  <meta name="description" content="{{- descriptionstring() -}}" />
+  <meta name="description" content="{{ descriptionstring() }}" />
   <meta name="author" content="L3D" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | url(external=true) }}" />
   <meta property="og:url" content="{{ this | url(external=true) }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{- titlestring() -}}" />
-  <meta property="og:description" content="{{- descriptionstring() -}}" />
+  <meta property="og:title" content="{{ titlestring() }}" />
+  <meta property="og:description" content="{{ descriptionstring() }}" />
 </head>
 <body>
   <header>
@@ -49,7 +45,7 @@
       <p>Hello World</p>
     {%- endblock %}
   </div>
-  <footer>
-    &copy; Copyright {{ none|datetimeformat('YYYY', 'UTC') }} by L3D under <a href="https://backwesen.de/voc/winkekatze.tv/src/branch/main/LICENCE">MIT License</a> | Source Code: <a href="https://backwesen.de/voc/winkekatze.tv.git">gitea</a> and <a href="https://github.com/winkekatze/winkekatze.tv.git">GitHub</a>
+<footer>
+    &copy; Copyright {{ none|datetimeformat('YYYY') }} by L3D under <a href="https://git.l3d.ch/voc/winkekatze.tv/src/branch/main/LICENCE">MIT License</a> | Source Code: <a href="https://git.l3d.ch/voc/winkekatze.tv.git">gitea</a> and <a href="https://github.com/winkekatze/winkekatze.tv.git">GitHub</a>
   </footer>
 </body>
